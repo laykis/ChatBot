@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello WebSocket</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="/main.js"></script>
+
+    <style>
+        .container #scrollpage {
+            height: 600px;
+            width: 900px;
+            overflow: auto;
+            padding:10px 15px;
+        }
+    </style>
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+    enabled. Please enable
+    Javascript and reload this page!</h2></noscript>
+<div id="main-content" class="container">
+    <div class="row">
+        <div class="col-md-12" id="scrollpage">
+            <table id="conversation" class="table table-striped">
+                <thead>
+                <tr>
+                    <th>메세지</th>
+                </tr>
+                </thead>
+                <tbody id="communicate">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="msg">문의사항</label>
+                    <input type="text" id="msg" class="form-control" placeholder="내용을 입력하세요....">
+                </div>
+                <button id="send" class="btn btn-default" disabled type="submit">보내기</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
