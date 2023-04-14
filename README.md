@@ -32,7 +32,8 @@
 
 ---
 
-![챗봇.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a08b3e0a-4188-4f5b-92ba-c1ec64c30a0a/%E1%84%8E%E1%85%A2%E1%86%BA%E1%84%87%E1%85%A9%E1%86%BA.png)
+<img width="1002" alt="챗봇" src="https://user-images.githubusercontent.com/73100987/231955801-a353029e-23a0-48a3-8490-a5e1554d665e.png">
+
 
 ---
 
